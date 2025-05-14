@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "rn-auth",
     "name": "react-native-auth-ui",
     "slug": "react-native-auth-ui",
     "version": "1.0.0",
@@ -24,6 +25,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
