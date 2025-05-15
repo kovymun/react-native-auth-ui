@@ -10,3 +10,6 @@ This project focuses on creating a simple and modern Authentication UI for apps 
 - Design inspiration: Dribbble.com
 - Aiming for a sleek, simple yet modern UI/UX design
 - Color Palette Inspiration: Coolers | Color Hunt | Dribbble
+
+- ios | apple dev guidelines
+  https://developer.apple.com/
