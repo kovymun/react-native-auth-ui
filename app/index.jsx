@@ -1,25 +1,20 @@
-import {
-  Text,
-  TextInput,
-  Pressable,
-  StyleSheet,
-  ScrollView,
-} from "react-native";
+import { Text, TextInput, Pressable, ScrollView } from "react-native";
 import { Link } from "expo-router";
 import { AntDesign } from "@expo/vector-icons";
+import { globalStyles } from "../styles/globalStyles";
 
 const Login = () => {
   return (
     <ScrollView
-      contentContainerStyle={styles.container}
+      contentContainerStyle={globalStyles.container}
       keyboardShouldPersistTaps="handled"
     >
       <AntDesign name="rocket1" size={48} color="#FF6F61" />
-      <Text style={styles.welcomeText}>Welcome Back</Text>
-      <Text style={styles.subtitle}>Sign in to your account</Text>
+      <Text style={globalStyles.welcomeText}>Welcome Back</Text>
+      <Text style={globalStyles.subtitle}>Sign in to your account</Text>
 
       <TextInput
-        style={styles.input}
+        style={globalStyles.input}
         placeholder="Email Address"
         placeholderTextColor="#aaa"
         keyboardType="email-address"
@@ -29,29 +24,29 @@ const Login = () => {
       />
 
       <TextInput
-        style={styles.input}
+        style={globalStyles.input}
         placeholder="Password"
         placeholderTextColor="#aaa"
         secureTextEntry
         textContentType="password"
       />
 
-      <Pressable style={styles.button}>
-        <Text style={styles.buttonText}>Sign In</Text>
+      <Pressable style={globalStyles.button}>
+        <Text style={globalStyles.buttonText}>Sign In</Text>
       </Pressable>
 
-      <Text style={styles.linkText}>
+      <Text style={globalStyles.linkText}>
         Don't have an account?{" "}
-        <Link href="/register" style={styles.link}>
+        <Link href="/register" style={globalStyles.link}>
           Register
         </Link>
       </Text>
 
-      <Text style={styles.terms}>
+      <Text style={globalStyles.terms}>
         By signing in, you agree to our Terms & Conditions.
       </Text>
 
-      <Text style={styles.footer}>
+      <Text style={globalStyles.footer}>
         © 2025 Koveshan Munsami. All rights reserved.
       </Text>
     </ScrollView>
@@ -59,76 +54,3 @@ const Login = () => {
 };
 
 export default Login;
-
-const styles = StyleSheet.create({
-  container: {
-    flexGrow: 1,
-    padding: 24,
-    backgroundColor: "#ffffff", // background of white
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  welcomeText: {
-    fontSize: 28,
-    fontFamily: "Poppins_600SemiBold",
-    marginTop: 16,
-    marginBottom: 8,
-    color: "#333333", // this is intended to be a dark grey
-  },
-  subtitle: {
-    fontSize: 16,
-    fontFamily: "Poppins_400Regular",
-    color: "#757575",
-    marginBottom: 24,
-  },
-  input: {
-    width: "100%",
-    height: 50,
-    borderColor: "#dddddd",
-    borderWidth: 1,
-    borderRadius: 12,
-    paddingHorizontal: 16,
-    fontSize: 16,
-    fontFamily: "Poppins_400Regular",
-    marginBottom: 16,
-    backgroundColor: "#fafafa",
-  },
-  button: {
-    width: "100%",
-    backgroundColor: "#FF6F61",
-    paddingVertical: 14,
-    borderRadius: 12,
-    alignItems: "center",
-    marginTop: 8,
-  },
-  buttonText: {
-    color: "#ffffff",
-    fontSize: 16,
-    fontFamily: "Poppins_600SemiBold",
-  },
-  linkText: {
-    fontSize: 14,
-    fontFamily: "Poppins_400Regular",
-    color: "#444",
-    marginTop: 12,
-  },
-  link: {
-    color: "#FF6F61",
-    fontWeight: "600",
-  },
-  terms: {
-    fontSize: 12,
-    fontFamily: "Poppins_400Regular",
-    color: "#888888",
-    textAlign: "center",
-    marginTop: 30,
-    paddingHorizontal: 10,
-  },
-  footer: {
-    fontSize: 12,
-    fontFamily: "Poppins_400Regular",
-    color: "#aaa",
-    textAlign: "center",
-    marginTop: 16,
-  },
-});
