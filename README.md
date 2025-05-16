@@ -80,9 +80,9 @@ Follow the steps below to interact with the application:
 
 ### Screenshots
 
-![Image](https://github.com/user-attachments/assets/06fb6ecf-373d-4a80-abe7-b1218a448ba1)
-
-![Image](https://github.com/user-attachments/assets/e9eb6303-efd1-420b-985c-6cf23007b34a)
+<img src="https://github.com/user-attachments/assets/06fb6ecf-373d-4a80-abe7-b1218a448ba1" width="350"/>
+<br/>
+<img src="https://github.com/user-attachments/assets/e9eb6303-efd1-420b-985c-6cf23007b34a" width="350"/>
 
 ### Disclaimer
 
