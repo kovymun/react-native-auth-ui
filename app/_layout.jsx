@@ -1,4 +1,3 @@
-import { StyleSheet, Text, View } from "react-native";
 import { Stack } from "expo-router";
 import {
   useFonts,
@@ -21,5 +20,3 @@ const RootLayout = () => {
 };
 
 export default RootLayout;
-
-const styles = StyleSheet.create({});
