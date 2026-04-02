@@ -1,6 +1,6 @@
 import { Text, TextInput, Pressable, ScrollView } from "react-native";
 import { Link } from "expo-router";
-import { AntDesign } from "@expo/vector-icons";
+import AntDesign from "@expo/vector-icons/AntDesign";
 import { globalStyles } from "../styles/globalStyles";
 
 const Login = () => {
@@ -9,7 +9,7 @@ const Login = () => {
       contentContainerStyle={globalStyles.container}
       keyboardShouldPersistTaps="handled"
     >
-      <AntDesign name="rocket1" size={48} color="#FF6F61" />
+      <AntDesign name="ant-design" size={48} color="#FF6F61" />
       <Text style={globalStyles.welcomeText}>Welcome Back</Text>
       <Text style={globalStyles.subtitle}>Sign in to your account</Text>
 
