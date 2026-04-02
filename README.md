@@ -80,9 +80,7 @@ Follow the steps below to interact with the application:
 
 ### Screenshots
 
-<img src="https://github.com/user-attachments/assets/06fb6ecf-373d-4a80-abe7-b1218a448ba1" width="350"/>
-<br/>
-<img src="https://github.com/user-attachments/assets/e9eb6303-efd1-420b-985c-6cf23007b34a" width="350"/>
+<img width="356" height="297" alt="react-native-auth-ui-prototype" src="https://github.com/user-attachments/assets/4662de69-4eec-4955-9329-4cec9a4e6068" />
 
 ### Disclaimer
 
