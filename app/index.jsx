@@ -4,6 +4,8 @@ import AntDesign from "@expo/vector-icons/AntDesign";
 import { globalStyles } from "../styles/globalStyles";
 
 const Login = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <ScrollView
       contentContainerStyle={globalStyles.container}
@@ -47,7 +49,7 @@ const Login = () => {
       </Text>
 
       <Text style={globalStyles.footer}>
-        © 2025 Koveshan Munsami. All rights reserved.
+        © {currentYear} Koveshan Munsami. All rights reserved.
       </Text>
     </ScrollView>
   );
